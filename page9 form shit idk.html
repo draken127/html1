@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=wwwwsw, initial-scale=1.0">
+    <title>form shit</title>
+</head>
+<body>
+    <form><!-- this the shit usedto make them username and passwords-->
+    <!--so we gonn make like input shit like interface to take inputs like how 
+    they do in login pages aight-->
+    <label style="background-color: red; color: aqua;">enter name</label>
+    <!--like enter username type shit get it?? like how they do in insta ask
+    for username-->
+    <input type="text" style="background-color: blue; color: brown; border-radius: 40px;">
+</form>
+<br>
+<form>
+    <labeL for="fname">enter name</labeL>
+    <input type="text" id="fname">
+    <!--what this does is like if u click on enter name it goes into input mode
+    like now u can start entering on the desired box thats why id-->
+</form>
+<br>
+<form>
+    <labeL for="fname">enter name</labeL>
+    <input type="text" id="fname" name="fname" placeholder="draken">
+    <!--place holder is like pre written text in the box-->
+    <!--name is used like when we submit data what sort of name we want to give
+    that data think of it like an attribute-->
+    </form><br>
+    <form>
+        
+        <labeL for="fname1">first name</labeL>
+        <input type="text" id="fname1" name="fname1" placeholder="draken">
+        <labeL for="lname1">last name</labeL>
+        <input type="text" id="lname1" name="lname1" placeholder="poopy">
+        </form>
+        <br>
+        <form>
+        <div><!--to separate them/treat them as block element use div-->
+            <labeL for="fname2">first name</labeL>
+            <input type="text" id="fname2" name="fname2" placeholder="draken">
+            </div>
+            <div>
+                <br>
+            <labeL for="lname2">last name</labeL>
+            <input type="text" id="lname2" name="lname2" placeholder="poopy">
+            </div>
+            <div>
+                <input type="reset">
+                <!--this resets the entered data-->
+                <!--works for only the form block it is in-->
+            </div>
+            <div>
+                <input type="submit">
+                <!--this submits data but since we dont have it to go anywhere 
+                we need to do somth-->
+            </div>
+
+            </form>
+            <br>
+
+
+     <form action="action_page.php" method="post">
+        <!--we needs some sort of shit to send the input data to but we are not 
+        that here we learning how to make ui for now-->
+        <!--post is used for protected shit like for passwords and all-->
+        <!--theres a get thingy which adds the input to url it is used
+        for search engines like if u type whats time, it ll add the shit in url
+        useful for searchboxes-->
+           <div>
+              <labeL for="fname3">first name</labeL>
+        <input type="text" id="fname3" name="fname3" placeholder="draken" required>
+        <!--required attribute wont let u submut unless u enter the data-->
+      </div>
+        <div>
+       <br>
+     <labeL for="lname3">last name</labeL>
+    <input type="text" id="lname3" name="lname3" placeholder="poopy" required>
+   </div>
+    <div>
+      <input type="reset">
+                        
+     </div>
+       <div>
+    <input type="submit">
+                        
+      </div><br>
+      <div>
+      <!--for passwords-->
+      <label for="pass">password</label>
+      <input type="password" id="pass" name="pass" placeholder="password" 
+      maxlength="12">
+      <!--password type makes the input hidden like censored-->
+      <!--maxlength is max length of whatever u can enter in the box-->
+      </div><br>
+      <div>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="enter email">
+        <!--for entering email it requires an @ and some letters afterward it-->
+      </div>
+      <div>
+        <input type="reset">
+                          
+       </div>
+         <div>
+      <input type="submit">
+      </div>
+      <div>
+        <label for="pno">p no</label>
+        <input type="tel" id="pno" name="pno" placeholder="123-456-7890">
+        <!--for enetering phone/telephone number-->
+      </div>
+      <div>
+        <label for="date">bday</label>
+        <input type="date" id="date" name="date">
+        <!--lets us enter date,, give inbuilt calender pretty cool-->
+      </div>
+      <div>
+        <label for="ball">number of balls</label>
+        <input type="number" id="ball" name="ball" min="0" max="100" value="1">
+      </div><!--we can only enter number here defualt will be one cz vaulue is set to 1-->
+
+      <!--next is radio button like when u select one of the many options
+      like ur age or like ur degree ur prefix etc-->
+      <div><!-- gotta create label and inpupt for each option we have-->
+        <label for="title">Title:</label>
+        <label for="mr">Mr</label>
+        <input type="radio" id="mr" name="title" value="Mr">
+        <label for="mrs">Mrs</label>
+        <input type="radio" id="mrs" name="title" value="Mrs">
+        <label for="phd">Phd</label>
+        <input type="radio" id="phd" name="title" value="Phd">
+        <!--we will be able to select multiple-->
+        <!--in order to ensure that does not happen we use uhh name attribute 
+        with same name-->
+      </div><br>
+      <div>
+        <!--we now gonna make one where we select from multiple options
+        like the arrow thingy not the radio one we do that ususally when
+        we fill forms and slect payment type or select course type shit-->
+        <label for="payement">payment</label>
+        <select id="payment" name="payment">
+            <!-- we use select for that thing-->
+             <!--option for each option that ll be avaialable-->
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+        </select>
+      </div>
+      <br>
+      <!--last input is checkbox type-->
+      <div>
+        <label for="hi">say hi</label>
+        <input type="checkbox" id="hi" name="hi">
+      </div>
+    </form>
+</body>
+</html>
