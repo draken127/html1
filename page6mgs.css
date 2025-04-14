@@ -1,0 +1,74 @@
+/*the margins have some space between then and the top screen
+around 8px we can get rid of that so our margins touch the top of the
+tab*/
+/*we will set the margin of out body to 0px to remove that*/
+body{
+/*margin is the space outside the border*/
+/*padding is the space between the text inside and the borderS*/
+
+    margin: 0px;
+}
+
+
+
+#box1{
+    /*we can have diff margins for each side we gon try that*/
+    margin-top: 50px;
+    margin-left: 50px ;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin:50px;/*this will set margin of all sides to 50px*/
+    
+    border-style: groove;
+    border-radius: 5px;
+    border-color: blue;
+    /*width and height are the width and height of the margin so it does not 
+    highlights the full screen*/
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: aqua;
+    /*bg color for the division,,, it wont color the whole screen horizontly 
+    cz we set width and height to some pixels, this ll contain the coloring to it
+    we will use these properties to make student id */
+}
+#box2{
+    /*we can use % too if we want our shit to scale throught window/resolution size and 
+    not pixels
+    margin-left: 50%;
+    this will work and automatically calculate for it to be 50% of the given resolution
+    to the left
+    */
+
+    /*if we want our shit to stick on one side we ll set it to auto like
+    if was want our shit to stick to right side of the screen we can do this*/
+    margin-left: auto;
+
+    /*if we set both right and left to auto then our shit will stay in middle and it 
+    would be more cool also it ll scale through all resoultions*/
+    margin-right: auto;
+
+
+    background: palegreen;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: blue;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+#box3{
+    background: palegreen;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: blue;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}

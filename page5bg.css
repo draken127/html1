@@ -1,0 +1,29 @@
+body{
+    /*here we will learn how to add bg image*/
+    /*gotta use background image url tag*/
+    background-image: url("images/download.jpg");
+    /*but it ll set the image on repeat so we need to use some commands to ensure that
+    does not happen*/
+    background-attachment: fixed;
+    /*to makwe it fixed*/
+    /*to make sure it does not repeat*/
+    background-repeat: no-repeat;
+    /*to align it to center*/
+    background-position: center;
+    /*to have the image cover whole screen when u change resolution or anything*/
+    background-size: cover;
+    
+    
+    
+    
+    }
+    h1{
+        background:linear-gradient(to right,red,blue);
+        background-attachment:fixed;
+    }
+    p{
+        
+            background:linear-gradient(to left,red,blue);
+            background-attachment:fixed;
+        
+    }

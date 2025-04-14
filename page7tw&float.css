@@ -1,0 +1,25 @@
+img{
+    float: right;
+}
+.box {
+
+    /*here we editing all element of class box*/
+    /*we added width height border background text alingment font size and float property*/
+
+    /*float right means the boxes will stick to right size and text below it ll wrap around
+    left side of the boxes*/
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    padding: 2px;
+    background: cyan;
+    text-align: center;
+    font-size: 40px;
+    float: right;
+}
+p{
+    /*clear allows us to remove the float property of a particular block or element*/
+
+
+    clear:both;
+}

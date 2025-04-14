@@ -1,0 +1,54 @@
+#box1{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 200px;
+    text-align: center;
+
+    
+
+
+    /*we need to have animation name*/
+    animation: myslide;
+    /*and animation duration*/
+    animation-duration: 5s;
+
+    /*to have our animation as many times as we want*/
+    animation-iteration-count: infinite;
+
+    animation-play-state: running;
+    /*have animation play or stop*/
+
+    animation-delay: 1s;
+    /*have delay in animation like it will start after 1s*/
+
+    /*our animation is moving linearly we can change that ease in is accelerate and 
+    ease out is deaccelerate 
+    we can set it to linear too for it be back to normal*/
+    animation-timing-function: ease-in;
+
+    
+
+    /*WE CAN HAVE ALL OF THESE 6 SHITS IN ONE LINE IM GONN DO THAT
+    IN NEXT FILE*/
+}
+/*to apply animtion we need to use @keyframes*/
+@keyframes myslide{
+    /*name can be anuthing*/
+    /*keyframes  have 2 keywords*/
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+
+
+}
+
+
+#box2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 26, 255);
+    font-size: 200px;
+    text-align: center;
+    animation: myslide2;
+
+}

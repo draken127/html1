@@ -1,0 +1,48 @@
+a:link{
+
+    /*this will chaneg the color of the link only will work if the link is never visited*/
+    color: rgb(17, 255, 0);
+    font-size: 200px;
+}
+
+/*if the link is visited we can change the color of it by using a visited*/
+a:visited{
+    color: black;
+}
+/*when we hover over the link we can have it change color too*/
+a:hover{
+    color: tomato;
+}
+/*when we are holding the link we can have it change to some oclor too*/
+a:active{
+    color:aqua
+}
+button:hover{
+
+    /*we can have the text color in the button change when we hover it*/
+    
+    color: aqua;
+
+    /*or we can have the button background color change or we can have both change*/
+    background-color: blue;
+}
+/*
+nth child pseudo class  
+wtih these list items we can change properties of them 
+we have to add a value inside of() it can be a number a formula or even odd shit
+
+li:nth-child(1){
+    background-color: yellow;
+}
+    */
+    li:nth-child(even){
+        background-color: aqua;
+    }
+    li:nth-child(odd){
+        background-color:aquamarine;
+    }
+    /*we can have out shit ordered like it ll look cool and shit*/
+    li:nth-child(3n){
+        background-color: rgb(142, 26, 26);
+    }
+    /*here i used formula to do it*/

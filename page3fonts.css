@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+h1{
+    color:rgb(149, 233, 23);
+   font-family: "press start 2p", "consolas", sans-serif;
+   /*we had to add the name press star 2p or the font wont work
+   we previously pasted link of it on our html file*/
+   /*we can have diff style of border for diff sides here i ll try them*/
+   border-top-style: groove;
+   border-bottom-style: outset;
+   border-left-style: inset;
+   border-right-style: dotted;
+   border-radius: 14px;
+   border-width: 12px;
+   padding: 10px;
+   border-top-color: aqua;
+   border-right-color: blue;
+   /*we can change border style color type width radius for each side
+   we can even change padding for each side css is amazing*/
+}
+p{
+    color: rgb(151, 236, 23);
+    font-family:"consolas", sans-serif;/*font type*/
+    font-style: italic;
+    font-weight: bold;/*weight like it ll make it bold or thin and shit*/
+    text-decoration: cyan wavy underline;/* we can decorate our font
+    by using this we can add colors and type of decoaration and styleof decoration*/
+    font-size: 18px;
+    /*border adding using this border style*/
+    /*default color will be text color*/
+    border-style: double;
+    border-width: 5px;
+    /*border line width*/
+    /*border radius makes it smoother*/
+    border-radius: 10px;
+    /*change default to desired border color*/
+    border-color: gold;
+    /*padding is like space bw the border and text inside it*/
+    padding: 5px;
+}

@@ -1,0 +1,34 @@
+body{
+/*here we will learn how to add bg image*/
+/*gotta use background image url tag*/
+background-image: url("images/download.jpg");
+
+
+
+
+/*we can control what type of radiant we want like control which color is on top or which 
+color is on right here i ll to that*/
+/*we need to use 'to' command for that*/
+
+    background: linear-gradient(to right,skyblue,cyan);
+    /*this allows us to have more then one color in a website but the color repeats 
+    itself after the body/text ends */
+    /*in order to ensure that does not happens we use border repeat to no repeat
+    but theres a problem here if we do that we get like proper color until the body
+    and after then the whole page is white*/
+    background-repeat: no-repeat;
+    /*in order to ensure that does not happen we use background attachement to fixed
+    now for any resoulution it ll fix the radiant and it ll have it for whole page*/
+    background-attachment: fixed;
+    /**/
+}
+h1{
+    background:linear-gradient(to right,red,blue);
+    background-attachment:fixed;
+}
+p{
+    
+        background:linear-gradient(to left,red,blue);
+        background-attachment:fixed;
+    
+}

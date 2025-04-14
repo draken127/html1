@@ -1,0 +1,25 @@
+/*we gon discuss two types of shadows text shadow and box shadow*/
+
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /*x y and z*/
+    /*positive number will make shadow in positive axis
+    negative will have it in negative axis*/
+    /*z will work as spread the higher the number we will be barely able to see shadow*/
+    text-shadow: 0px -3px 4px yellow, 2px -5px 4px red;
+    /*we can have multiple shadows*/
+
+    /*box shadow makes shadow appear for whole elment sort of like background type*/
+    /*we can edit width and height of it ofc*/
+    display: inline-block;
+   
+   
+}
+h1:hover{
+
+    /*this will let us have box shadow when we hover our cursor over the text 
+    pretty cool*/
+    box-shadow: 2px 2px 4px black;
+}

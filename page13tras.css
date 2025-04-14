@@ -1,0 +1,48 @@
+#box1{
+    border: 4px solid;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: aqua;
+    font-size: 225px;
+    /*we gon learn how to transform our box or element*/
+    transform:translateX(50px) ;
+    /*this will translate/move our element 50px positive on x axis
+    we can do negative too */
+    transform: translateY(50px);
+    /*for y axis*/
+    /*or we can do both together*/
+    transform: translate(150px, 150px);
+
+    /*we can rotate on all  axis too*/
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);
+    /*we can do both together too*/
+    transform: rotate(180deg, 180deg, 180deg);
+
+    /*we can change scaling too*/
+    transform: scaleX(2);
+    /*this will stretch the box twice the original size on x axis*/
+    transform: scaleY(2);
+    transform: scale(2,2);
+
+    /*we can skew on a gives axis too*/
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform: skew(90deg, 90 deg);
+
+    /*we have on transform funtion named matrix we can use it to edit all of the properties 
+    at once*/
+    transform: matrix(2,0,0,2,250,250);
+    /*matrix combines the following
+    ScaleX()
+    SkewY()
+    SkewX()
+    ScaleY()
+    translateX()
+    translateY()
+    w*/
+
+
+}

@@ -1,0 +1,87 @@
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width:300px;
+    background-color: aqua;
+    
+    /*position property formats the layout of an element*/
+   /* position: static ;     */
+    /*any element that is positioned statitcally is in its normal state so theres no change*/
+    
+    /*relative  we canmove this element to some point of the origin
+    the offset are top left right and bottom*/
+    position: relative;
+    top: 250px;
+    left: 150px;
+    /*it can cover other elements underneath it so we need to take that into consideration*/
+
+
+}
+#box2{
+    border: 1px solid;
+    height: 100px;
+    width:100px;
+    background-color:tomato;
+
+    /*fixed will stay in position of ur veiwport so even if we scroll it will stay in the
+    same place */
+   
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    /*it will now stay fixed to that position forever like if we scroll down it ll stay in 
+    that position to the webpage andmove w us*/
+    /*it ll stay fixed in the top right corner*/
+
+
+}
+#box3{
+    border: 1px solid;
+    height: 100px;
+    width:100px;
+    background-color:tomato;
+    
+    /*absolute positionining
+    any element that is positioned absolutely will be takes out of the 
+    flow of the document*/
+    /*it ll kind of ignore the document and be whereever we want to place it*/
+    position: absolute;
+
+    /*it becomes like a ghost and the scaling that happens here scales w the whole page 
+    instead of from previous element truly fascinating*/
+    top: 100px;
+    left: 100px;
+    /*the reason why it behaves like this is cz any element that is absolutely 
+    positioned wil search for any parents that are positioned non statically
+    if it does not have a parent it ll instead use the viewport*/
+    /*we set the pos from top left corner of the webpafe cz it dont have no
+    parents orphan ahh*/
+
+
+    /*we gonna make box 3 child of box 1 by placing it within box 1 in html file*/
+    /*that way it ll have a parent and scale from it */
+    /*however box 1 is positioned statically we need to change that in order for box 1 to become
+    a decent parent*/
+
+
+    /*cool thing will be now if i move box 1 box 2 will follor cz box 1 is his
+    parent now*/
+
+
+}
+#box4{
+    border: 1px solid;
+    height: 100px;
+    width:100px;
+    background-color:rgb(10, 207, 92);
+
+    /*next is sticky positioning*/
+    /*first it ll stay at its normal pos then when we scroll down it ll stick
+    to the top of the viewport/webpage and go with us like those yt players that stick on
+    top as we scroll down*/
+    position:sticky;
+    top: 0px;
+    left: 00px;
+    bottom: 0px;
+    /*it like it ll stick to the top or bottom of the viewportww*/
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(19, 20, 20);
+}
+h1 {
+    color: aqua;
+}
+p {
+    color: white;
+    background-color: blue;
+}
+/* #p1 is used to target specific block or elemet*/
+#p1{
+    color: tomato;
+}
+/* .classname is used to target classes,, u can target multiple element w same classname*/
+.odd{
+color:darkgray ;
+background-color: white;
+}
