@@ -1,0 +1,39 @@
+.searchbox{
+  display: block;
+  width: 150;
+  padding: 5px;
+  font-size: 20px;
+  margin-left: 12px;
+}
+.thumbnail1{
+    width: 295px;
+    height: 165px;
+
+}
+.vt1{
+  width: 300px;
+}
+.va1,.vv1{
+  color: gray;
+}
+.video1{
+  display: inline-block;
+  width: 300px;
+  margin-right: 15px;
+}
+.thumbnail2{
+  width: 295px;
+  height: 165px;
+
+}
+.video2{
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+
+
+}
+.va2,.vv2{
+  color: gray;
+}
+

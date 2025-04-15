@@ -1,0 +1,60 @@
+#a{
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .Stretch{
+    background-color: green;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    transition: padding 0.5s;
+  }
+  .Stretch:hover{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+  }
+  .td{
+    background-color: green;
+  color: white;
+  margin-top: 2px;
+  margin-left: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  box-shadow: 3px 4px 5px rgba(21, 20, 20, 1.15);
+  }
+  .td:active{
+    box-shadow: 3px 4px 5px rgba(21, 20, 20, 0);
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .pad{
+    background-color: green;
+  color: white;
+  margin-top: 2px;
+  margin-left: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  margin-left:8px;
+  margin-right:8px ;
+  transition: padding 0.23s, margin 0.25s;
+  
+  }
+  .pad:hover{
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+  }

@@ -1,0 +1,51 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    /*cleaner if u we this here*/
+  }
+    .vtitle{
+        font-weight: bold;
+        font-size: 19px;
+        width: 300px ;
+        /*we can change height of the text shit like if theres shit on 2nd line
+        of the same para then we can use line command to change height and shit*/
+        line-height: 26px; 
+        margin-top: 10px;
+        margin-bottom: 5px;           
+    }
+    .views{
+      font-family: Special Gothic Condensed One
+      ;
+      font-size: 14px;
+      color: rgb(109, 108, 108);
+      margin-top:0px;
+      margin-bottom: 0px;
+
+    }
+    .line1{
+      font-size: 14px;
+      font-family: Special Gothic Condensed One;
+      color: rgb(109, 108, 108);
+      margin-top: 16px;
+      margin-bottom: 0px;
+    }
+    .line2{
+      margin-top: 16px;
+      font-size: 14px;
+      color: rgb(109, 108, 108);
+      width: 270px;
+      line-height: 20px;
+    }
+    .line3{
+      background-color: rgb(243, 77, 77);
+      color: white;
+      text-align: center;
+      margin-top: 100px;
+      padding: 18px;
+      font-size: 14px;
+    }
+    .poop:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }

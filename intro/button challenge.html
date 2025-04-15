@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    #back-to-amazon{
+      color:rgb(0, 113, 133);
+      text-decoration: underline rgb(0, 113, 133);
+      cursor: pointer;
+      transition: color 0.2s, text-decoration 0.2;
+
+    }
+    #back-to-amazon:hover{
+      color: bisque;
+      text-decoration: underline  bisque;
+    }
+    #shoe{
+      font-size: 24px;
+      font-weight: bold;
+
+    }
+    #price{
+      color: rgb(0, 118, 0);
+      font-weight: bold;
+    }
+    .cart{
+      color:black;
+      background-color:  rgb(255, 216, 20);
+      opacity: 0.8;
+      border-radius: 20px;
+      border-style: none;
+      width: 105px;
+      height: 27px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .cart:hover{
+      opacity: 1;
+    }
+    .cart:active{
+      opacity: 0.6;
+    }
+    .buy{
+      color: black;
+      background-color: rgb(255, 164, 28);
+      opacity: 0.8;
+      border-radius: 20px;
+      border-style: none;
+      width: 105px;
+      height: 27px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .buy:hover{
+      opacity: 1;
+    }
+    .buy:active{
+      opacity: 0.6;
+    }
+  </style>
+  <a href="http://www.amazon.com">
+    <p id="back-to-amazon">Back to Amazon</p>
+    </a>
+    <p id="shoe">Nike Black Running Shoes</p>
+    <p id="price">$39 - in stock.</p>
+    <p id="delivery">Free delivery tommorow</p>
+    <button class="cart">Add to Cart</button>
+    <button class="buy">Buy now</button>
+</body>
+</html>
