@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>✨ Pink Pulse Dots ✨</title>
+  <style>
+    @keyframes dotPulse {
+      0%, 100% {
+        background-size: 36px 36px;
+      }
+      50% {
+        background-size: 40px 40px;
+      }
+    }
+
+    @keyframes sparkleFloat {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100px) scale(1.5);
+        opacity: 0;
+      }
+    }
+
+    body {
+      background-color: #ffc0cb;
+      background-image: radial-gradient(#c2185b 12%, transparent 13%);
+      background-size: 36px 36px;
+      animation: dotPulse 2s ease-in-out infinite;
+      position: relative;
+      min-height: 200vh; /* Enough height to scroll */
+      margin: 0;
+    }
+
+    .sparkle {
+      width: 8px;
+      height: 8px;
+      background: white;
+      border-radius: 50%;
+      position: absolute;
+      top: calc(20% + 50px * var(--i));
+      left: calc(10% + 80% * var(--j));
+      animation: sparkleFloat 3s ease-in-out infinite;
+      animation-delay: calc(1s * var(--j));
+      filter: blur(1px);
+    }
+
+    .sparkle:nth-child(2) { --i: 0; --j: 0.1; }
+    .sparkle:nth-child(3) { --i: 1; --j: 0.3; }
+    .sparkle:nth-child(4) { --i: 2; --j: 0.6; }
+    .sparkle:nth-child(5) { --i: 3; --j: 0.9; }
+    .sparkle:nth-child(6) { --i: 4; --j: 0.5; }
+    .sparkle:nth-child(7) { --i: 5; --j: 0.2; }
+
+    h1 {
+      text-align: center;
+      font-family: 'Comic Sans MS', cursive;
+      color: #c2185b;
+      margin-top: 20%;
+      font-size: 3em;
+      text-shadow: 2px 2px white;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ Pink Pulse & Sparkle ✨</h1>
+
+  <!-- Sparkles start here -->
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+</body>
+</html>
